@@ -47,7 +47,8 @@
         </select><br>
 
         Perheenjäsenet:
-        <textarea name="names"><?= $defaultnames ?></textarea><br>
+        <textarea name="names" rows="5"><?= $defaultnames ?></textarea><br>
+ss
 
         <input type="submit" value="Avaa kalenterisivu">
 
