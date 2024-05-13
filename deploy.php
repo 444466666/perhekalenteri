@@ -1,4 +1,3 @@
-
 <?php
 namespace Deployer;
 
@@ -21,10 +20,11 @@ set('shared_dirs', []);
 // Writable dirs by web server 
 set('writable_dirs', []);
 
+
 // Hosts
 host('neutroni.hayo.fi')
     ->set('deploy_path', '~/public_html/{{application}}');
-    
+
 
 // Tasks
 
